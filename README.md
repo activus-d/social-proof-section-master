@@ -30,8 +30,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [ https://activus-d.github.io/social-proof-section-master/]( https://activus-d.github.io/social-proof-section-master/)
+- Live Site URL: [https://github.com/activus-d/social-proof-section-master](https://github.com/activus-d/social-proof-section-master)
 
 ## My process
 For both mobile and web view, flex-dislay was used for the layout design. However the style for the size is different. While relative unit 'rem' was used for the web view percentages was used as the size unit for the mobile view.
