@@ -1,0 +1,183 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+html {
+    fOnt-size: 62.5%;
+    font-family: 'Spartan', sans-serif;
+}
+/*************************************
+LAYOUT
+************************************/
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100vh;
+    background-image: url(images/bg-pattern-top-desktop.svg), url(images/bg-pattern-bottom-desktop.svg);
+    background-repeat: no-repeat;
+    background-position: top left, bottom right;
+}
+main {
+    width: 110rem;
+    margin: 0 auto;
+    padding: 10rem;
+}
+.top-section {
+    display: flex;
+    justify-content: space-between;
+    flex-basis: 35%;
+}
+.part {
+    flex-basis: 35%
+}
+.top2 {
+    flex-basis: 45%;
+    display: flex;
+    flex-direction: column;
+}
+.rates {
+    display: flex;
+    justify-content: space-around;
+}
+.bottom-section {
+    display: flex;
+    flex-direction: row;
+}
+
+
+/*************************************
+ADDITIONAL STYLES FOR .TOP-SECTION
+************************************/
+.top-section {
+    margin-bottom: 3rem;
+}
+body {
+    font-size: 1.5rem;
+}
+h1 {
+    font-size: 3.6rem;
+    padding-bottom: 1rem;
+    color: hsl(300, 43%, 22%);
+}
+.top1 p {
+    color: hsl(303, 10%, 53%);
+}
+.rates {
+    width: 85%;
+    margin-bottom: 2rem;
+    padding: 1rem;
+    border-radius: 0.7rem;
+    color: hsl(300, 43%, 22%);
+    background-color: hsl(300, 24%, 96%);
+}
+.reportGuru {
+    margin-left: 7.5%;
+}
+.bestTech {
+    margin-left: 15%;
+}
+
+/*************************************
+ADDITIONAL STYLES FOR .BOTTOM-SECTION
+*************************************/
+.bottom-section section > div {
+    border-radius: 1rem;
+    background-color: hsl(300, 43%, 22%);
+    height: 20rem;
+}
+.one {
+    margin: 2rem 3rem 0 0
+}
+.two {
+    margin: 4rem 3rem 0 0
+}
+.three {
+    margin: 6rem 0rem 0 0;
+}
+.buyer > div > p {
+    height: 5rem;
+    padding-bottom: 5px;
+}
+.bottom-section section > div div {
+    display: flex;
+    padding: 1rem 2rem;
+}
+div > p {
+    padding:  1rem 2rem;
+    color: white;
+}
+div > p span {
+    color: hsl(333, 80%, 67%);
+}
+.bottom-section img {
+    width: 4rem;
+    height: 4rem;
+    border-radius: 50%;
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
+/*************************************
+STYLES FOR TABLET AND MOBILE VIEW
+*************************************/
+@media all and (max-width: 800px) {
+    body {
+        height: auto;
+    }
+    main {
+        width: 90%;
+        padding: 5rem 3rem;
+    }
+    .top-section {
+        flex-direction: column;
+        flex-basis: none;
+    }
+    .part {
+        flex-basis: 50%
+    }
+    h1 {
+        text-align: center;
+        margin-bottom: 2rem;
+    }
+    p {
+        text-align: center;
+        margin-bottom: 2rem;
+    }
+    .top2 {
+        flex-basis: none;
+    }
+    .bottom-section {
+        flex-direction: column;
+    }
+    .rates {
+        flex-direction: column;
+        width: 100%;
+        margin-bottom: 2rem;
+        padding: 1rem;
+    }
+    .icons {
+        width: 15rem;
+        padding: 0 1rem;
+        margin: 0 auto;
+    }
+    h5 {
+        text-align: center;
+    }
+    .reportGuru {
+        margin-left: 0;
+    }
+    .bestTech {
+        margin-left: 0;
+    }
+    .buyer {
+        margin: 1rem 0;
+    }
+}
